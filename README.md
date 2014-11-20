@@ -10,7 +10,7 @@ DRS cmdlets
 
 To simplify the process of managing VM site affinity using DRS Groups/Rules, the cmdlet "Update-ClusterVMDrsGroups" can be scheduled or run ad hoc to correct any missing/misconfigured VM DRS Groups.
 
-Just download the PowerShell module/functions from https://github.com/richardlock/powershell-vmwarevsphere, and run the “Update-ClusterVMDrsGroups” cmdlet against one or more clusters after connecting to the “vc-prd-da01” vCenter.  E.g.
+Just download the PowerShell module/functions, and run the “Update-ClusterVMDrsGroups” cmdlet against one or more clusters after connecting to the “vc-prd-da01” vCenter.  E.g.
 
 Dry run:      Get-Cluster clustername | Update-ClusterVMDrsGroups -WhatIf
 Actual:       Get-Cluster clustername | Update-ClusterVMDrsGroups
