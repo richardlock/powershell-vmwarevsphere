@@ -1,7 +1,7 @@
 Introduction
 ============
 
-This is a set of PowerShell cmdlets for managing VMware vSphere.  It includes a module manifest "VMwarevSphere.psd1" which references the modules in the "Functions" subdirectory.  Each module is a single cmdlet.  The DRS group cmdlets are based on code from Luc Dekens, but with some modifications required for the "Update-ClusterVMDrsGroups" cmdlet.
+This is a set of PowerShell cmdlets for use with VMware vSphere.  It includes a module manifest "VMwarevSphere.psd1" which references the modules in the "Functions" subdirectory.  Each module is a single cmdlet.  The DRS group cmdlets are based on code from Luc Dekens, but with some modifications required for the "Update-ClusterVMDrsGroups" cmdlet.
 
 To get started, run "Import-Module VMwarevSphere" to import the module into a PowerCLI session.
 
